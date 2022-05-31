@@ -7,7 +7,7 @@ const pool = mysql.createPool({
     user: 'admin',
     port: '3306',
     password: '12345678',
-    database: 'rekkaDB'
+    database: 'schema'
 });
 
 module.exports = {
